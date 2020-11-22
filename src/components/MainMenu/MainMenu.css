@@ -1,0 +1,16 @@
+.main-menu a {
+  @apply text-purple-700;
+}
+
+@media screen and (min-width: 768px) {
+  .main-menu {
+    --space-from-content: 64px;
+
+    right: calc((100vw - var(--content-width)) / 2 - var(--space-from-content));
+    top: 128px;
+  }
+
+  .main-menu ul {
+    writing-mode: vertical-lr;
+  }
+}
