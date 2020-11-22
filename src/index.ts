@@ -1,7 +1,3 @@
-import Example from "./Example/Example";
+import PageTitle from "./components/PageTitle/PageTitle";
 
-export function hello(param: string): string {
-  return `Hello ${param}`;
-}
-
-export { Example };
+export { PageTitle };
