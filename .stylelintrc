@@ -7,6 +7,14 @@
   ],
   "rules": {
     "order/properties-alphabetical-order": true,
-    "max-line-length": 120
+    "max-line-length": 120,
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "tailwind"
+        ]
+      }
+    ]
   }
 }
